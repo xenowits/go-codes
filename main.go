@@ -2,13 +2,13 @@ package main
 
 import (
     "fmt"
-    temp "cp/ds/linked_list"
+    "github.com/xenowits/go-codes/ds/linked_list"
 )
 
 func main () {
     arr := []int {2, 3, 5, 7, 11, 13, 15}
 
-    head := temp.NewLL(arr)
+    head := linked_list.NewLL(arr)
 
     //traverse the linked list
     traversal_node := head
